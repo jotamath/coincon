@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #130f40;
+}
+
+.currency-converter {
+    color: #f7f7f7;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #30336b;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+select {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#resultado {
+    text-align: "center";
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px;
+    background-color: #686de0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

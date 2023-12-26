@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="currency-converter">
+        <h2>Conversor de Moedas</h2>
+        <input type="number" id="amount" placeholder="Valor">
+            <select id="fromCurrency">
+                <option value="BRL">Real Brasileiro (BRL)</option>
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro Europeu (EUR)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="ETH">Ethereum (ETH)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+            </select>
+            <select id="toCurrency">
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="BRL">Real Brasileiro (BRL)</option>
+                <option value="EUR">Euro Europeu (EUR)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="ETH">Ethereum (ETH)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+            </select>
+                <button id="bconv">Converter</button>
+                <div id="resultado">
+
+                </div>
+        </input>
+    </div>
+
+    <script src="conversor.js"></script>
+</body>
+</html>
